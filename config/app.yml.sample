@@ -1,0 +1,40 @@
+bettemidler:
+
+  # The blog title
+  title: 'Bette Midler'
+
+  # Database connection parameters.
+  database:
+
+    # Database name.
+    dbname: ~ # Required
+
+    # Database user.
+    user: ~ # Required
+
+    # Ignore if the not has password.
+    password: ''
+
+    # Ignore if is localhost.
+    host: localhost
+
+    # The WordPress database table prefix
+    table_prefix: bm_
+
+  # Admin user access data. This option must be setted. Even though the values is blank.
+  admin:        # Required
+
+    # The admin user login.
+    user: admin
+
+    # The password. If not set, will be generated.
+    password: ~
+
+    # The admin user email.
+    email: youremail@example.com
+
+  # Discourage search engines from indexing this site.
+  public: true
+
+  # The language of the blog
+  language: en_US

@@ -1,0 +1,40 @@
+bettemidler:
+
+  # The blog title
+  title: 'Long Lake Fire Rescue'
+
+  # Database connection parameters.
+  database:
+
+    # Database name.
+    dbname: LongLakeFire
+
+    # Database user.
+    user: root
+
+    # Ignore if the not has password.
+    password: root
+
+    # Ignore if is localhost.
+    host: localhost:/Applications/MAMP/tmp/mysql/mysql.sock
+
+    # The WordPress database table prefix
+    table_prefix: wp_
+
+  # Admin user access data. This option must be setted. Even though the values is blank.
+  admin:        # Required
+
+    # The admin user login.
+    user: Steve
+
+    # The password. If not set, will be generated.
+    password: Dynomint927!
+
+    # The admin user email.
+    email: stoth927@gmail.com
+
+  # Discourage search engines from indexing this site.
+  public: false
+
+  # The language of the blog
+  language: en_US
